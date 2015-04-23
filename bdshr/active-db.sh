@@ -2,8 +2,9 @@
 export FACTER_deploy_bahmni_openerp=false
 export FACTER_deploy_bahmni_openelis=false
 export FACTER_implementation_name=bdshr
-export FACTER_bahmni_user_name=bahmni
 export FACTER_bahmni_reports_environment=default
-export FACTER_is_passive_setup=false
+export FACTER_go_bahmni_yum_repo_url=172.18.2.14
+export FACTER_deploy_passive=false
 export FACTER_bahmni_server_type=db-server
-export $FACTER_go_bahmni_yum_repo_url=172.18.2.14
+export FACTER_app_server_ip=172.16.24.21
+export FACTER_passive_app_server_ip=172.16.24.22

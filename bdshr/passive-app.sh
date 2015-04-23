@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+export FACTER_deploy_bahmni_openerp=false
+export FACTER_deploy_bahmni_openelis=false
+export FACTER_implementation_name=bdshr
+export FACTER_bahmni_user_name=bahmni
+export FACTER_bahmni_reports_environment=default
+export FACTER_deploy_passive=true
+export FACTER_bahmni_server_type=db-server
+export FACTER_go_bahmni_yum_repo_url=172.18.2.14
+export FACTER_db_server_ip=localhost
